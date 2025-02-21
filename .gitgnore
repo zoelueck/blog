@@ -1,0 +1,6 @@
+/public
+/resources/_gen/
+
+node_moduels
+dist
+tmp

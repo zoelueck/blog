@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = "Zoé's blog"
 theme = "binario"
 [menu]
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about/"
 
 [Params]
 	description = "My professional blog where i write about Devops, Linux, Go and maybe even Rust"

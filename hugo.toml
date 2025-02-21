@@ -2,3 +2,27 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "Zoé's blog"
 theme = "binario"
+[menu]
+
+[Params]
+	description = "My professional blog where i write about Devops, Linux, Go and maybe even Rust"
+	copyright = "Zoé Lück"
+	columns = 3
+	dateFormat = "2006-01-02"
+	colorTheme = "dark-violet"
+	mainMenuAlignment = "right"
+	authorbox = true
+
+	[Params.Entry]
+		meta = ["date", "categories", "tags"]
+		toc = false
+		tocOpen = false
+	
+	[Params.Social]
+		email = "zoelueck@protin.me"
+		linkedin = "zoé-lück-1086bb348"
+		github = "zoelueck"
+	
+	[Params.Share]
+		linkedin = true
+

@@ -1,0 +1,6 @@
+[menu]
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about"
+		weight = 10

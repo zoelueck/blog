@@ -19,34 +19,34 @@ The design of this bot is based aroud social pressure and helpful friends, as su
 
 User Features:
 - Reminders
- - set reminders
- - modify reminders
- - delete reminders
- - snooze reminders
+    - set reminders
+    - modify reminders
+    - delete reminders
+    - snooze reminders
 - Consent
- - consent to getting pinged by a user
- - remve consent to getting pinged by a user
+    - consent to getting pinged by a user
+    - remve consent to getting pinged by a user
 - User Settings
- - set user timezone
- - change user timezone
- - set default dropped reminder behaviour
+    - set user timezone
+    - change user timezone
+    - set default dropped reminder behaviour
 - Status
 
 Server Admin Features:
 - permitted channels
- - set permitted channel
- - remove permitted channel
+    - set permitted channel
+    - remove permitted channel
 - bot announce channel
- - set bot announce channel
- - unset bot announce channel
+    - set bot announce channel
+    - unset bot announce channel
 
 Bot Owner Features: 
 - view bot logs
 - manage bot
- - send messages to admins
- - set downtime 
- - restart bot
- - shut down bot
+    - send messages to admins
+    - set downtime 
+    - restart bot
+    - shut down bot
 
 So, i think thats all for now, the only thing that is left now is to implement all these ideas.
 In the next blog post ill be talking about more indepth design like program structure and database modeling, some of that work has already started but it still needs some light polish

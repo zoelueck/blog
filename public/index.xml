@@ -6,21 +6,28 @@
     <description>Recent content on Zoé&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2025 09:48:19 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 21:14:45 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Bot the First</title>
+      <link>http://localhost:1313/post/go-bot-the-first/</link>
+      <pubDate>Fri, 21 Feb 2025 21:14:45 +0100</pubDate>
+      <guid>http://localhost:1313/post/go-bot-the-first/</guid>
+      <description>The first post in my journal of Discord Bot development, mainly design focused, not much coding yet</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 21 Feb 2025 09:48:19 +0100</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hey, I&amp;rsquo;m Zoé Lück, im currently working on diversifying my skillset as im currently mainly a linux systems administrator and devops administrator, I&amp;rsquo;m now breaking into go development to become a &amp;ldquo;fullstack&amp;rdquo; backend dev that can not only write but also deploy and administer the backend of your next project&lt;/p&gt;</description>
+      <description>Hey, I&amp;rsquo;m Zoé Lück, im currently working on diversifying my skillset as im mainly a linux systems administrator and devops administrator, I&amp;rsquo;m now breaking into go development to become a &amp;ldquo;fullstack&amp;rdquo; backend dev that can not only write but also deploy and administer the backend of your next project</description>
     </item>
     <item>
       <title>Init</title>
       <link>http://localhost:1313/post/init/</link>
       <pubDate>Fri, 21 Feb 2025 09:04:21 +0100</pubDate>
       <guid>http://localhost:1313/post/init/</guid>
-      <description>&lt;h1 id=&#34;git-init&#34;&gt;git init&lt;/h1&gt;&#xA;&lt;p&gt;Hello world, this is the test page for my blog&lt;/p&gt;</description>
+      <description>git init Hello world, this is the test page for my blog</description>
     </item>
   </channel>
 </rss>

@@ -11,7 +11,7 @@ theme = "binario"
 [Params]
 	description = "My professional blog where i write about Devops, Linux, Go and maybe even Rust"
 	copyright = "Zoé Lück"
-	columns = 3
+	columns = 2
 	dateFormat = "2006-01-02"
 	colorTheme = "dark-violet"
 	mainMenuAlignment = "right"

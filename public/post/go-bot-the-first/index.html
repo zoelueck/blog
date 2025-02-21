@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#1b1b1b">
-	<title>About | Zoé&#39;s blog</title>
+	<title>Go Bot the First | Zoé&#39;s blog</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="stylesheet" href="/css/bundle.css">
@@ -43,17 +43,60 @@
 		<div class="single block">
 			<article class="entry">
 	<div class="entry__meta meta mb">
-	<time class="entry__meta-published meta-published" datetime="2025-02-21T09:48:19&#43;01:00">2025-02-21</time>
+	<time class="entry__meta-published meta-published" datetime="2025-02-21T21:14:45&#43;01:00">2025-02-21</time>
 	</div>
-				<h1 class="entry__title">About</h1>
-				<div class="entry__content"><p>Hey, I&rsquo;m Zoé Lück, im currently working on diversifying my skillset as im mainly a linux systems administrator and devops administrator, I&rsquo;m now breaking into go development to become a &ldquo;fullstack&rdquo; backend dev that can not only write but also deploy and administer the backend of your next project</p>
+				<h1 class="entry__title">Go Bot the First</h1>
+				<div class="entry__content"><h1 id="designing-a-discord-bot">Designing a discord bot</h1>
+<p>the idea behind this bot stems from a discord webhook pythonscript cron job <del>clusterfuck</del> setup i used to run in an old friend group to remind a couple people of things like taking medicine or doing other tasks, this was cumbersome and slow to do and as such i decided to tackle the issue with a proper bot, using modern technology from go to argo or flux cd</p>
+<h2 id="initial-ideas">Initial ideas</h2>
+<p>the first idea swere like probably many a young developer what cool features i could add and how awesome it would be, planning so big that i could not realistically build it with my current skillset. After a walk to clear my head and a productive discussion with other software inclined friends i decided to go and build a V1/alpha first, a proof of concept. It just needs to work, but im still optimistic that i can write some code that will survive into future versions.</p>
+<h2 id="technical-decisions">technical decisions</h2>
+<p>the decision to support multiple databases even in the alpha was made to allow administrators to choose their database and even use already existing ones, for this purpose MySQY and Postgres were chosen due to their common usage. Docker and cubernetes are becoming the defacto default for application hostingfrom small homelabs to the datacentre and as such it only made sense to target them first and foremost</p>
+<h2 id="must-have-features">Must have features</h2>
+<p>The design of this bot is based aroud social pressure and helpful friends, as such the bot has a good amount of must have features:</p>
+<p>User Features:</p>
+<ul>
+<li>Reminders</li>
+<li>set reminders</li>
+<li>modify reminders</li>
+<li>delete reminders</li>
+<li>snooze reminders</li>
+<li>Consent</li>
+<li>consent to getting pinged by a user</li>
+<li>remve consent to getting pinged by a user</li>
+<li>User Settings</li>
+<li>set user timezone</li>
+<li>change user timezone</li>
+<li>set default dropped reminder behaviour</li>
+<li>Status</li>
+</ul>
+<p>Server Admin Features:</p>
+<ul>
+<li>permitted channels</li>
+<li>set permitted channel</li>
+<li>remove permitted channel</li>
+<li>bot announce channel</li>
+<li>set bot announce channel</li>
+<li>unset bot announce channel</li>
+</ul>
+<p>Bot Owner Features:</p>
+<ul>
+<li>view bot logs</li>
+<li>manage bot</li>
+<li>send messages to admins</li>
+<li>set downtime</li>
+<li>restart bot</li>
+<li>shut down bot</li>
+</ul>
+<p>So, i think thats all for now, the only thing that is left now is to implement all these ideas.
+In the next blog post ill be talking about more indepth design like program structure and database modeling, some of that work has already started but it still needs some light polish</p>
 </div>
 				
 				<footer class="entry__footer">
 					
 					
 <div class="entry__share share">
-	<a class="share__link btn" title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fabout%2f&title=About" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
+	<a class="share__link btn" title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fpost%2fgo-bot-the-first%2f&title=Go%20Bot%20the%20First" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, 'Share on LinkedIn', 'width=640,height=480,toolbar=0,status=0'); return false">
 		<svg class="share__icon" aria-label="LinkedIn" role="img" width="32" height="32" viewBox="0 0 512 512"><circle cx="142" cy="138" r="37"/><path stroke-width="66" d="M244 194v198M142 194v198"/><path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/></svg>
 	</a>
 </div>

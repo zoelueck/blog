@@ -6,8 +6,15 @@
     <description>Recent content on Zoé&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2025 21:14:45 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 15:50:21 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Bot the Second</title>
+      <link>http://localhost:1313/post/go-bot-the-second/</link>
+      <pubDate>Wed, 26 Feb 2025 15:50:21 +0100</pubDate>
+      <guid>http://localhost:1313/post/go-bot-the-second/</guid>
+      <description>sequenceDiagram participant Alice participant Bob Alice-&amp;gt;&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! John--&amp;gt;&amp;gt;Alice: Great! John-&amp;gt;&amp;gt;Bob: How about you? Bob--&amp;gt;&amp;gt;John: Jolly good! </description>
+    </item>
     <item>
       <title>Go Bot the First</title>
       <link>http://localhost:1313/post/go-bot-the-first/</link>

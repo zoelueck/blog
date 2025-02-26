@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zoé&#39;s blog</title>
-    <link>https://example.org/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Zoé&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2025 21:14:45 +0100</lastBuildDate>
-    <atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 15:50:21 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Bot the Second</title>
+      <link>http://localhost:1313/post/go-bot-the-second/</link>
+      <pubDate>Wed, 26 Feb 2025 15:50:21 +0100</pubDate>
+      <guid>http://localhost:1313/post/go-bot-the-second/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Go Bot the First</title>
-      <link>https://example.org/post/go-bot-the-first/</link>
+      <link>http://localhost:1313/post/go-bot-the-first/</link>
       <pubDate>Fri, 21 Feb 2025 21:14:45 +0100</pubDate>
-      <guid>https://example.org/post/go-bot-the-first/</guid>
+      <guid>http://localhost:1313/post/go-bot-the-first/</guid>
       <description>The first post in my journal of Discord Bot development, mainly design focused, not much coding yet</description>
     </item>
     <item>
       <title>Init</title>
-      <link>https://example.org/post/init/</link>
+      <link>http://localhost:1313/post/init/</link>
       <pubDate>Fri, 21 Feb 2025 09:04:21 +0100</pubDate>
-      <guid>https://example.org/post/init/</guid>
+      <guid>http://localhost:1313/post/init/</guid>
       <description>just the test post for my blog, no need to look here</description>
     </item>
   </channel>

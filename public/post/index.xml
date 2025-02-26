@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/go-bot-the-second/</link>
       <pubDate>Wed, 26 Feb 2025 15:50:21 +0100</pubDate>
       <guid>http://localhost:1313/post/go-bot-the-second/</guid>
-      <description></description>
+      <description>sequenceDiagram participant Alice participant Bob Alice-&amp;gt;&amp;gt;John: Hello John, how are you? loop Healthcheck John-&amp;gt;&amp;gt;John: Fight against hypochondria end Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! John--&amp;gt;&amp;gt;Alice: Great! John-&amp;gt;&amp;gt;Bob: How about you? Bob--&amp;gt;&amp;gt;John: Jolly good! </description>
     </item>
     <item>
       <title>Go Bot the First</title>

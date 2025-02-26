@@ -46,18 +46,42 @@
 	<time class="entry__meta-published meta-published" datetime="2025-02-26T15:50:21&#43;01:00">2025-02-26</time>
 	</div>
 				<h1 class="entry__title">Go Bot the Second</h1>
-				<div class="entry__content"><pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice-&gt;&gt;John: Hello John, how are you?
-    loop Healthcheck
-        John-&gt;&gt;John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts &lt;br/&gt;prevail!
-    John--&gt;&gt;Alice: Great!
-    John-&gt;&gt;Bob: How about you?
-    Bob--&gt;&gt;John: Jolly good!
-</code></pre></div>
+				<div class="entry__content"><pre class="mermaid">---
+title: &#34;[Server_ID]-Database&#34;
+---
+erDiagram
+
+Reminders {
+    PKEY        reminder_id
+    BIGINT      user_id
+    TEXT        message
+    BIGINT      channel_id
+    TIMESTAMP   timestamp
+    ENUM        status
+    INT         snooze_remaining
+}
+
+BotLogs{
+    PKEY        log_id
+    ENUM        log_type
+    TEXT        message
+    TEXT        details
+    INT         uptime
+    ENUM        status
+}
+
+UserConsent{
+    PKEY        UserId_AllowedUserId
+    BIGINT      user_id
+    BIGINT      allowed_user_id
+}
+
+ServerSettings{
+    TEXT        allowed_channels
+    BIGINT      update_channel
+}
+</pre>
+</div>
 				
 				<footer class="entry__footer">
 					
@@ -104,5 +128,12 @@
 	<div class="footer__copyright">© 2025 Zoé Lück. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
 </footer>
 <script src="/js/menu.js"></script>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+
 </body>
 </html>

@@ -1,0 +1,8 @@
+digraph G {
+    splines = true
+    reminders -> {reminder_id user_id reminder_message channel_id reminder_timestamp reminder_status remaining_snooze}
+    userSettings -> {user_id timezone default_dropped_behaviour}
+    serverSettings -> {allowed_channels update_channel}
+    consentTable -> {user_id allowed_user_id key}
+    botLogs -> {log_id timestamp log_type message details uptime_seconds status}
+}

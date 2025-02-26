@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zoé&#39;s blog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://example.org/post/</link>
     <description>Recent content in Posts on Zoé&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Feb 2025 21:14:45 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go Bot the First</title>
-      <link>http://localhost:1313/post/go-bot-the-first/</link>
+      <link>https://example.org/post/go-bot-the-first/</link>
       <pubDate>Fri, 21 Feb 2025 21:14:45 +0100</pubDate>
-      <guid>http://localhost:1313/post/go-bot-the-first/</guid>
-      <description>Designing a discord bot the idea behind this bot stems from a discord webhook pythonscript cron job combination i used to run in an old friend group to remind a couple people of things like taking medicine or doing other tasks, this was cumbersome and slow to do and as such i decided to tackle the issue with a proper bot, using modern technology from go to argo or flux cd</description>
+      <guid>https://example.org/post/go-bot-the-first/</guid>
+      <description>The first post in my journal of Discord Bot development, mainly design focused, not much coding yet</description>
     </item>
     <item>
       <title>Init</title>
-      <link>http://localhost:1313/post/init/</link>
+      <link>https://example.org/post/init/</link>
       <pubDate>Fri, 21 Feb 2025 09:04:21 +0100</pubDate>
-      <guid>http://localhost:1313/post/init/</guid>
-      <description>git init Hello world, this is the test page for my blog</description>
+      <guid>https://example.org/post/init/</guid>
+      <description>just the test post for my blog, no need to look here</description>
     </item>
   </channel>
 </rss>
